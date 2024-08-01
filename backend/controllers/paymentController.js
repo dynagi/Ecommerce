@@ -17,5 +17,5 @@ exports.processPayment = catchAsyncErrors(async (req, res, next) => {
 });
 
 exports.sendStripeApiKey = catchAsyncErrors(async (req, res, next) => {
-  res.status(200).json({ stripeApiKey: process.env.STRIPE_API_KEY });
+  res.status(200).json({ stripeApiKey: 'pk_test_51Phy34BliJ9COPMrEhca2rrVgGM6EeopLRcznDHmuLZmwt27d6iku17H9vr3JedAJMFgAsT1SRnWncb6iswnWVYk003RwOqEjC'});
 });
